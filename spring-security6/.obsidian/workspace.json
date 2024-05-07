@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "375fb5f2aed591b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "db29218ae38c03f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc51bd42b7c1c98e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.authentication/폼 인증 - formLogin().md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c9a7e1638267ba63",
+    "type": "split",
+    "children": [
+      {
+        "id": "32a8c37f3e2d748c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "759636cb3c961e13",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "10c632e5333a3f33",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12f4fbf9775dec10",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "4c6b15e8a83505e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0350542b456cd2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b811dfbcd2190ff4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2.authentication/폼 인증 - formLogin().md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "715100f36a980d17",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2.authentication/폼 인증 - formLogin().md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3002940ad5db6516",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "87be0e222891ad62",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2.authentication/폼 인증 - formLogin().md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "cc51bd42b7c1c98e",
+  "lastOpenFiles": [
+    "Welcome.md",
+    "2.authentication/폼 인증 - formLogin().md",
+    "2.authentication"
+  ]
+}
