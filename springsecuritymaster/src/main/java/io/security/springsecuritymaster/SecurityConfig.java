@@ -19,9 +19,14 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests(auth -> auth.anyRequest().authenticated())
-                .httpBasic(basic -> basic
-//                        .realmName("security")
-                        .authenticationEntryPoint(new CustomAuthenticationEntryPoint()));
+                .formLogin(Customizer.withDefaults())
+                .rememberMe(rememberMe -> rememberMe
+                        .alwaysRemember(false) // remember-me token always create
+                        .tokenValiditySeconds(3600)
+                        .userDetailsService(userDetailsService())
+                        .rememberMeParameter("remember-me") // default "remember-me"
+                        .rememberMeCookieName("remember-me") // default "remember-me"
+                        .key("security"));
 
         return http.build();
     }
