@@ -19,23 +19,9 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests(auth -> auth.anyRequest().authenticated())
-                .formLogin(Customizer.withDefaults());
-//                .formLogin(form -> form
-//                        .loginPage("/loginPage")
-//                        .loginProcessingUrl("/loginProc")
-//                        .defaultSuccessUrl("/", false) // alwaysUse의 기본값은 false
-//                        .failureUrl("/failed")
-//                        .usernameParameter("userId")
-//                        .passwordParameter("passwd")
-//                        .successHandler(((request, response, authentication) -> {
-//                            System.out.println("authentication : " + authentication);
-//                            response.sendRedirect("/home");
-//                        }))
-//                        .failureHandler((request, response, exception) -> {
-//                            System.out.println("exception : " + exception.getMessage());
-//                            response.sendRedirect("/login");
-//                        })
-//                        .permitAll());
+                .httpBasic(basic -> basic
+//                        .realmName("security")
+                        .authenticationEntryPoint(new CustomAuthenticationEntryPoint()));
 
         return http.build();
     }
