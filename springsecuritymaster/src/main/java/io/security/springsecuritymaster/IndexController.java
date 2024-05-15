@@ -43,4 +43,9 @@ public class IndexController {
     public String anonymousContext(@CurrentSecurityContext SecurityContext securityContext) {
         return securityContext.getAuthentication().getName();
     }
+
+    @GetMapping("/logoutSuccess")
+    public String logoutSuccess() {
+        return "logoutSuccess";
+    }
 }
